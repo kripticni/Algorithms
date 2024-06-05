@@ -35,7 +35,7 @@ int main(){
   printf("n:%i,m:%i\n", n, m);
 
   int niz[m];
-  kmp(str, m, niz);
+  kmp(podstr, m, niz);
   for(int z=0;z<m;z++){
     printf("%i\n", niz[z]);
   }
